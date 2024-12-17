@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "PRODUCTS:\r ---------\r GET /api/Products        (Will return all products)\r GET /api/Products/4         (Will retrurn one product with id 4)\r POST /api/products          (Will add a new product in database)\r PATCH/PUT /api/Products/4   (Will update the product with id 4)\r DELETE /api/Product/4       (Will delete a product with id 4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Babar Ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
